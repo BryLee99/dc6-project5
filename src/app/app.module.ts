@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RandomNumComponent } from './random-num/random-num.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RandomNumComponent
   ],
   imports: [
     BrowserModule,
